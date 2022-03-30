@@ -6,10 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pos" />
+        <module name="e-money" />
         <module name="e-ticket" />
         <module name="printer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="emoney" target="11" />
+      <module name="pos" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="e-money" options="-parameters" />
+      <module name="e-ticket" options="-parameters" />
+      <module name="pos" options="-parameters" />
+      <module name="printer" options="-parameters" />
+    </option>
   </component>
 </project>

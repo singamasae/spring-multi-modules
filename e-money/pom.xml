@@ -8,10 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>e-ticket</artifactId>
+    <artifactId>e-money</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>e-ticket</name>
-    <description>e-ticket</description>
+    <name>e-money</name>
+    <description>e-money</description>
     <packaging>jar</packaging>
 
     <properties>
